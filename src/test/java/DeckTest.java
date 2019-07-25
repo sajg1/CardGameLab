@@ -21,7 +21,7 @@ public class DeckTest {
 
     @Test
 
-    public void deckhas52Cards() {
+    public void deckhas52CardsThatAreShuffled() {
         deck.buildAndShuffle();
         assertEquals(52, deck.cardCount());
     }
